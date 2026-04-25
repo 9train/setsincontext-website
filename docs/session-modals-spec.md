@@ -370,6 +370,7 @@ This step changes based on selected join method.
 **Rules:**
 
 - optional fields should be visually secondary
+- viewer name and email are private participant metadata only
 - preserve current behavior for these values
 - if current logic keeps these values website-only, do not start sending them during resolution
 - keep room-key joining resolve-first and honest
@@ -385,6 +386,7 @@ This step changes based on selected join method.
 **Rules:**
 
 - do not imply that a private room key alone is enough
+- viewer name and email are private participant metadata only
 - if full invite-paste support exists, use it
 - if invite-paste support is not in scope, stay honest and clearly tell the user they need the private invite from the host
 
